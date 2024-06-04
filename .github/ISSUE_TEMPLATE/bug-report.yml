@@ -6,15 +6,15 @@ body:
   - type: markdown
     attributes:
       value: |
-          Before opening new issue, make sure there are no existing requests by searching the [repository issues](https://github.com/Software-Noob/pterodactyl-images/issues?q=is%3Aissue+label%3Abug+).
+        Before opening new issue, make sure there are no existing requests by searching the [upstream issues](https://github.com/Software-Noob/pterodactyl-images/issues?q=is%3Aissue+label%3Abug+).
   - type: textarea
     id: bug-report
     attributes:
       label: Bug Report
       description: Explain the bug with as much information as possible including any error messages. Low effort bug reports will be closed.
       placeholder: |
-       Server crashed after doing X and Y.
-       Crash message is ...
-       The whole console output is ...
+        Server crashed after doing X and Y.
+        Crash message is ...
+        The whole console output is ...
     validations:
       required: true
