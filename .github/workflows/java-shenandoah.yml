@@ -55,4 +55,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           file: ./java-shenandoah/${{ matrix.tag }}/Dockerfile
           push: true
-          tags: ghcr.io/software-noob/pterodactyl-images:java_${{ matrix.tag }}_shenandoah
+          tags: ${{ vars.DOCKER_BASE }}:java_${{ matrix.tag }}_shenandoah
